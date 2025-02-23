@@ -14,6 +14,13 @@ The goal here is to come up with some question and then see what API or datasets
 
 ### Dependencies
 
+Place the daily_food_nutrition_dataset.csv file in the same directory as the python file.
+Download the csv file from the link below.
+```
+https://www.kaggle.com/datasets/adilshamim8/daily-food-and-nutrition-dataset?resource=download
+```
+
+Install packages from the requirements.txt
 ```
 pip install -r requirements.txt
 ```
@@ -26,7 +33,7 @@ python main.py
 
 ### Output
 
-This should create 5 graphs in charts/ for each of the five stocks.
+This should create 5 graphs in charts.
 
 ## Authors
 
