@@ -21,6 +21,9 @@ random_user_ids = random.sample(list(user_ids), 5)
 
 dfs = []
 
+topic = "What is the calorie intake per meal type for a random selection of users from the dataset?"
+print(f"topic: {question}") # print the question
+
 for user_id in random_user_ids:
     user_data = foods[foods['User_ID'] == user_id]
 
