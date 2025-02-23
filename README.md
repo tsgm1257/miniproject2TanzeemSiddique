@@ -7,33 +7,39 @@
 
 ## Description
 
-This project will be using the packages Pandas and Matplotlib in order to create 5 graphs that output as PNG files.
-The goal here is to come up with some question and then see what API or datasets you can use to get the information needed to answer that question. This will get you familar with working with datasets and asking questions
+This project analyzes the "daily_food_nutrition_dataset.csv" using Pandas to calculate the total calorie intake per meal type for a random selection of users. It then generates five bar charts using Matplotlib, visualizing the calorie distribution for each user. These charts are saved as PNG files in a "charts" directory.
+
+The project addresses the question: **"What is the calorie intake per meal type for a random selection of users from the dataset?"**
 
 ## Getting Started
 
+
 ### Dependencies
 
-Place the daily_food_nutrition_dataset.csv file in the same directory as the python file.
-Download the csv file from the link below.
-```
-https://www.kaggle.com/datasets/adilshamim8/daily-food-and-nutrition-dataset?resource=download
-```
+1.  **Obtain the Dataset:**
+    * Download "daily_food_nutrition_dataset.csv" from [Kaggle](https://www.kaggle.com/datasets/adilshamim8/daily-food-and-nutrition-dataset?resource=download).
+    * Place the file in the same directory as `main.py`.
 
-Install packages from the requirements.txt
-```
-pip install -r requirements.txt
-```
+
+2.  **Install Required Packages:**
+    * Install the packages using pip:
+    ```
+    pip install -r requirements.txt
+    ```
 
 ### Executing program
 
+1.  Run the `main.py` script:
 ```
 python main.py
 ```
 
 ### Output
 
-This should create 5 graphs in charts.
+* The program will create a directory named "charts" in the current working directory.
+* Inside the "charts" directory, five PNG files will be generated, each representing the calorie intake per meal type for a randomly selected user.
+* The program will also print the dataframes used to generate the charts to the console.
+* The question that the program answers will also be printed to the console.
 
 ## Authors
 
