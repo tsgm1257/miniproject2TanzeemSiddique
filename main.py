@@ -8,7 +8,8 @@ import os
 
 os.makedirs("charts", exist_ok=True)
 
-foods = pd.read_csv("daily_food_nutrition_dataset.csv", index_col=0, parse_dates=True)
+foods = pd.read_csv("daily_food_nutrition_dataset.csv", index_col=0)
 
+print(foods.head())
 
 # plt.savefig(f"charts/{ticker}.png")
